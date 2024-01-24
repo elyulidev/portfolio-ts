@@ -34,7 +34,7 @@ const Particle = () => {
 				<Particles
 					id='tsparticles'
 					className='h-[88vh] absolute z-[1]'
-					loaded={particlesLoaded}
+					//loaded={particlesLoaded}
 					options={{
 						fullScreen: false,
 						background: {
