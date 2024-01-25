@@ -1,5 +1,4 @@
 import SkillsItem from "./SkillsItem";
-import SkillsLanguage from "./SkillsLanguage";
 import SkillsLanguageInfinite from "./SkillsLanguageInfinite";
 
 const OBJECT_STUDIES = [
