@@ -1,5 +1,6 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 import Image from "next/legacy/image";
+import aboutOpt from "../../public/static/images/about/about-opt.webp";
 
 const About = () => {
 	return (
@@ -38,8 +39,7 @@ const About = () => {
 						data-aos='fade-left'
 					>
 						<Image
-							src='/images/about/about-opt.webp'
-							//src='/images/julio-logo.jpg'
+							src={aboutOpt}
 							alt='About Picture'
 							layout='fill'
 							className='relative z-[11] w-full h-full object-contain'

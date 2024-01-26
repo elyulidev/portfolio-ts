@@ -1,7 +1,8 @@
 import { StarIcon } from "@heroicons/react/16/solid";
+import { StaticImageData } from "next/legacy/image";
 
 interface Props {
-	image: string;
+	image: StaticImageData;
 	name: string;
 	role: string;
 	text: string;
@@ -13,7 +14,7 @@ const TestimonialItem = ({ image, name, role, text }: Props) => {
 	return (
 		<div className='flex flex-col text-center justify-center '>
 			<div
-				style={{ backgroundImage: `url(${image})` }}
+				style={{ backgroundImage: `url(${image.src})` }}
 				className={`w-[100px] h-[100px] mx-auto mb-8 bg-no-repeat bg-cover ${imagePosition} rounded-[50%] md:w-[200px] md:h-[200px]`}
 			></div>
 			<div className='flex items-center mx-auto'>

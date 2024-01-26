@@ -2,6 +2,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TestimonialItem from "./TestimonialItem";
+import yoelkys from "../../public/static/images/testimonials/yoelkys.webp";
+import fito from "../../public/static/images/testimonials/fito.webp";
+import yordanis from "../../public/static/images/testimonials/yordanis.webp";
+import daniel from "../../public/static/images/testimonials/daniel.webp";
 
 const responsive = {
 	desktop: {
@@ -23,25 +27,25 @@ const responsive = {
 
 const OBJECT_ITEM = [
 	{
-		image: "/images/testimonials/yoelkys.webp",
+		image: yoelkys,
 		name: "Yoelkis Hernandez Victor",
 		role: "Vice Chancellor at the University of Ciego de Ávila",
 		text: "When you handed in my work my head was spinning, you were very nice and implemented all the features I requested. Thank you.",
 	},
 	{
-		image: "/images/testimonials/fito.webp",
+		image: fito,
 		name: "Rodolfo Luis Reyes Baños",
 		role: "Director of the Department of Networks at the University of Ciego de Avila",
 		text: "I patronized Julio and when He delivered, I honestly fell in love with the project He is a very honest guy and he delivers ontime.",
 	},
 	{
-		image: "/images/testimonials/yordanis.webp",
+		image: yordanis,
 		name: "Yordanis Arencibia López",
 		role: "Network Administrator at the University of Ciego de Ávila",
 		text: "I have been working with him for seven years, I have seen his professional growth and his performance on the front page. I highly recommend it.",
 	},
 	{
-		image: "/images/testimonials/daniel.webp",
+		image: daniel,
 		name: "Daniel Orlando Jiménez Choi",
 		role: "Web Master at the University of Ciego de Ávila",
 		text: "Julio is a professional dedicated to self-improvement at all times. He is an incredible person, very responsible and deeply involved in our work team.",

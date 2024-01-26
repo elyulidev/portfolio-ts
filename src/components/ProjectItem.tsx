@@ -1,7 +1,7 @@
-import Image from "next/legacy/image";
+import Image, { StaticImageData } from "next/legacy/image";
 
 interface Props {
-	image: string;
+	image: StaticImageData;
 	alt: string;
 	delay: string;
 }

@@ -3,6 +3,7 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
+import pictureU1 from "../../public/static/images/hero/u1-opt.webp";
 
 const Hero = () => {
 	return (
@@ -39,7 +40,7 @@ const Hero = () => {
 					data-aos='zoom-in'
 				>
 					<Image
-						src='/images/hero/u1-opt.webp'
+						src={pictureU1}
 						alt='Picture U1'
 						layout='fill'
 						className='object-cover rounded-full'

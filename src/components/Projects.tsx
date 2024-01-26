@@ -1,28 +1,33 @@
 import ProjectItem from "./ProjectItem";
+import p1 from "../../public/static/images/projects/p1-opt.webp";
+import p2 from "../../public/static/images/projects/p2-opt.webp";
+import p3 from "../../public/static/images/projects/p3-opt.webp";
+import p4 from "../../public/static/images/projects/p4-opt.webp";
+import p5 from "../../public/static/images/projects/p5-opt.webp";
 
 const OBJECT_PROJECT = [
 	{
-		image: "/images/projects/p1-opt.webp",
+		image: p1,
 		alt: "Project 1",
 	},
 	{
-		image: "/images/projects/p2-opt.webp",
+		image: p2,
 		alt: "Project 2",
 	},
 	{
-		image: "/images/projects/p3-opt.webp",
+		image: p3,
 		alt: "Project 3",
 	},
 	{
-		image: "/images/projects/p4-opt.webp",
+		image: p4,
 		alt: "Project 4",
 	},
 	{
-		image: "/images/projects/p5-opt.webp",
+		image: p5,
 		alt: "Project 5",
 	},
 	{
-		image: "/images/projects/p1-opt.webp",
+		image: p1,
 		alt: "Project 1",
 	},
 ];
