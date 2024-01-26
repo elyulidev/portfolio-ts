@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
@@ -42,8 +42,9 @@ const Hero = () => {
 					<Image
 						src={pictureU1}
 						alt='Picture U1'
-						layout='fill'
+						//layout='fill'
 						className='object-cover rounded-full'
+						priority={true}
 					/>
 				</div>
 			</div>
