@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/legacy/image";
+import Image, { StaticImageData } from "next/image";
 
 interface Props {
 	image: StaticImageData;
@@ -13,7 +13,7 @@ const ProjectItem = ({ image, alt, delay }: Props) => {
 			data-aos='fade-up'
 			data-aos-delay={delay}
 		>
-			<Image src={image} alt={alt} layout='fill' className='object-contain' />
+			<Image src={image} alt={alt} className='object-contain' />
 		</div>
 	);
 };

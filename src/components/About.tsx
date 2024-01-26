@@ -1,5 +1,5 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import aboutOpt from "../../public/static/images/about/about-opt.webp";
 
 const About = () => {
@@ -41,7 +41,7 @@ const About = () => {
 						<Image
 							src={aboutOpt}
 							alt='About Picture'
-							layout='fill'
+							//layout='fill'
 							className='relative z-[11] w-full h-full object-contain'
 						/>
 						<div className='absolute -top-8 -right-8 w-full h-full z-10 bg-[#55e6a5]'></div>

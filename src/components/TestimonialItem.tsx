@@ -1,5 +1,5 @@
 import { StarIcon } from "@heroicons/react/16/solid";
-import { StaticImageData } from "next/legacy/image";
+import { StaticImageData } from "next/image";
 
 interface Props {
 	image: StaticImageData;
