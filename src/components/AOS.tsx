@@ -1,16 +1,16 @@
 "use client";
 
 import { useEffect } from "react";
-import AOS from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 
 const AOSinit = () => {
 	useEffect(() => {
-		AOS.init();
+		Aos.init();
 
 		// You can also pass an optional settings object
 		// below listed default settings
-		AOS.init({
+		Aos.init({
 			// Global settings:
 			disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
 			startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
