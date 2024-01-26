@@ -2,27 +2,27 @@ import ProjectItem from "./ProjectItem";
 
 const OBJECT_PROJECT = [
 	{
-		image: "/images/p1-opt.webp",
+		image: "/images/projects/p1-opt.webp",
 		alt: "Project 1",
 	},
 	{
-		image: "/images/p2-opt.webp",
+		image: "/images/projects/p2-opt.webp",
 		alt: "Project 2",
 	},
 	{
-		image: "/images/p3-opt.webp",
+		image: "/images/projects/p3-opt.webp",
 		alt: "Project 3",
 	},
 	{
-		image: "/images/p4-opt.webp",
+		image: "/images/projects/p4-opt.webp",
 		alt: "Project 4",
 	},
 	{
-		image: "/images/p5-opt.webp",
+		image: "/images/projects/p5-opt.webp",
 		alt: "Project 5",
 	},
 	{
-		image: "/images/p1-opt.webp",
+		image: "/images/projects/p1-opt.webp",
 		alt: "Project 1",
 	},
 ];

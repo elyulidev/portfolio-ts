@@ -22,7 +22,7 @@ const config: Config = {
 				xl: "1400px",
 			},
 			backgroundImage: {
-				"hero-banner": "url('/images/banner.jpg')",
+				"hero-banner": "url('/images/hero/banner-opt.webp')",
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

@@ -39,7 +39,7 @@ const Hero = () => {
 					data-aos='zoom-in'
 				>
 					<Image
-						src='/images/u1-opt.webp'
+						src='/images/hero/u1-opt.webp'
 						alt='Picture U1'
 						layout='fill'
 						className='object-cover rounded-full'

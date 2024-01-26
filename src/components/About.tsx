@@ -38,7 +38,7 @@ const About = () => {
 						data-aos='fade-left'
 					>
 						<Image
-							src='/images/about-opt.webp'
+							src='/images/about/about-opt.webp'
 							//src='/images/julio-logo.jpg'
 							alt='About Picture'
 							layout='fill'
